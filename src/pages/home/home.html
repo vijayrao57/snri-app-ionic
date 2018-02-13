@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Barcode Scanner</h3>
+    <!-- <button ion-button secondary menuToggle>Toggle Menu</button> -->
+  <button ion-button secondary (click)="scanItem()">Scan With Camera</button>
+  <br>
+  <button ion-button secondary (click)="scanPanasonicItem()">Scan With Laser</button>
+    
+</ion-content>
